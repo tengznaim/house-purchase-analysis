@@ -19,4 +19,11 @@ Datasets used in this project were taken from:
 
 The techniques used to solve this problem comprised of the usage of statistics and matrix algebra. Given the nature of the dataset, we first calculated the yearly average by calculating the average over 4 quarters for each state.
 
-When plotting these values, we noticed a linear pattern and hence implemented a matrix least square method to obtain a least square regression line. This enabled us to perform somewhat of a linear regression in obtaining a model of house price prediction based on the number of years from 2009.
+When plotting these values, we noticed a linear pattern and hence implemented a matrix least square method to obtain a least square regression line. This enabled us to perform a linear regression to obtain a model of house prices based on the number of years since 2009.
+
+## References
+
+1. Least-Squares Method
+   - https://textbooks.math.gatech.edu/ila/least-squares.html
+   - https://www.youtube.com/watch?v=RlQBEhLhM8Y
+   - https://www.youtube.com/watch?v=Z0wELiinNVQ
