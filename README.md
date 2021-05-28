@@ -2,9 +2,9 @@
 
 ## Overview
 
-Our assignment aims to calculate how long it could take for a fresh graduate to save 10% savings of the price of a terrace house as downpayment. It hence only focuses on one of the criterias to purchase a house.
+This is our group assignment for Computing Mathematics II where we were tasked to solve real world problems using mathematics principles. Our group decided to calculate how long it could take for a fresh graduate to save 10% savings of the price of a terrace house as downpayment. It hence only focuses on one of the criterias to purchase a house.
 
-The assumptions we made for this project were that:
+The assumptions we made for this project were:
 | Criteria | Value |
 |----------|-------|
 |Average Fresh Graduate Salary|RM2424|
