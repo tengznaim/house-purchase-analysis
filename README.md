@@ -24,6 +24,15 @@ When plotting these values, we noticed a linear pattern and hence implemented a 
 ## References
 
 1. Least-Squares Method
+
    - https://textbooks.math.gatech.edu/ila/least-squares.html
    - https://www.youtube.com/watch?v=RlQBEhLhM8Y
    - https://www.youtube.com/watch?v=Z0wELiinNVQ
+
+2. Working with Unknown Equations with Sympy
+
+   - https://docs.sympy.org/latest/tutorial/basic_operations.html
+
+3. Finding and illustrating the intersection of two graphs with shapely and matplotlib
+   - https://stackoverflow.com/questions/28766692/intersection-of-two-graphs-in-python-find-the-x-value
+   - https://www.youtube.com/watch?v=heGBqav2TbU
