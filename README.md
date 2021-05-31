@@ -2,13 +2,13 @@
 
 ## Overview
 
-This is our group assignment for Computing Mathematics II where we were tasked to solve real world problems using mathematics principles. Our group decided to calculate how long it could take for a fresh graduate to save 10% savings of the price of a terrace house as downpayment. It hence only focuses on one of the criterias to purchase a house.
+This is our group assignment for Computing Mathematics II where we were tasked to solve real world problems using mathematics principles. Our group decided to calculate how long it could take for a fresh graduate to save 10% savings of the price of a terrace house as down payment. It hence only focuses on this single criteria of purchasing a house.
 
 The assumptions we made for this project were:
 | Criteria | Value |
 |----------|-------|
-|Average Fresh Graduate Salary|RM2424|
-|Average Rate of Annual Salary Increase|7.05% (Calculated from yearly trend)|
+|Average Fresh Graduate Salary|RM2424 (Based on national reports)|
+|Average Rate of Annual Salary Increase|7.50% (Calculated from yearly trend)|
 
 Datasets used in this project were taken from:
 
@@ -19,7 +19,12 @@ Datasets used in this project were taken from:
 
 The techniques used to solve this problem comprised of the usage of statistics and matrix algebra. Given the nature of the dataset, we first calculated the yearly average by calculating the average over 4 quarters for each state.
 
-When plotting these values, we noticed a linear pattern and hence implemented a matrix least square method to obtain a least square regression line. This enabled us to perform a linear regression to obtain a model of house prices based on the number of years since 2009.
+When plotting these values, we noticed a linear pattern and hence implemented a matrix least square method to obtain a least square regression line. This enabled us to perform a linear regression to obtain a model of house prices based on the number of years since 2009. We then repeated this step for all of the states and ended up with unique least square lines for each state.
+
+With the ability to predict the price of a terrace house, we then applied geometric progression to calculate two possible situations:
+
+1. The number of years to afford down payment given a fixed montly percent savings (eg. 10%)
+2. The monthly percent savings required given the number of years is fixed (eg. the graduate wants to purchase a house after 5 years of work)
 
 ## References
 
